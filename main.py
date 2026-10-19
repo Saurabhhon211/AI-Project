@@ -3,11 +3,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
-model = ChatOllama(
-    model="llama3.2",
-    temperature=0.2
-)
-
 load_dotenv()
 
 # llm = ChatGoogleGenerativeAI(
